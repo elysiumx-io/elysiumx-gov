@@ -1,4 +1,4 @@
-import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { Navigate, Route, HashRouter as Router, Routes } from 'react-router-dom';
 
 import AdminPanel from './components/admin-panel/AdminPanel';
 import { AuthProvider } from './contexts/AuthContext';
